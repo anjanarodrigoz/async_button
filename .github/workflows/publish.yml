@@ -1,4 +1,4 @@
-name: Publish
+name: Publish to pub.dev
 
 on:
   push:
@@ -9,36 +9,8 @@ on:
 
 jobs:
   publish:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v2
-
-      - uses: dart-lang/setup-dart@v1
-        with:
-          sdk: stable
-
-      - name: Install dependencies
-        run: flutter pub get
-
-      - name: Publish package
-        run: dart pub publish --dry-run
-
-      - name: Get version
-        id: get_version
-        run: echo ::set-output name=version::$(dart pub version)
-
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.PUB_TOKEN }}
-        with:
-          tag_name: ${{ steps.get_version.outputs.version }}
-          release_name: Release ${{ steps.get_version.outputs.version }}
-          draft: false
-          prerelease: false
-
-      - name: Publish package
-        run: dart pub publish --force
-        
+    permissions:
+      id-token: write # Required for authentication using OIDC
+    uses: dart-lang/setup-dart/.github/workflows/publish.yml@v1
+    # with:
+    #   working-directory: path/to/package/within/repository
