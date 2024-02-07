@@ -3,17 +3,17 @@ library async_button;
 import 'package:flutter/material.dart';
 
 class AsyncButton extends StatefulWidget {
-  Function onPressed;
-  String text;
-  double width;
-  double height;
-  bool enable;
-  Color? color;
-  IconData? icon;
-  Color? iconColor;
-  double iconSize;
+  final Function onPressed;
+  final String text;
+  final double width;
+  final double height;
+  final bool enable;
+  final Color? color;
+  final IconData? icon;
+  final Color? iconColor;
+  final double iconSize;
 
-  AsyncButton(
+  const AsyncButton(
       {super.key,
       required this.text,
       required this.onPressed,
