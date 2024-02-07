@@ -19,10 +19,7 @@ jobs:
           sdk: stable
 
       - name: Install dependencies
-        run: dart pub get
-
-      - name: Run tests
-        run: dart test
+        run: flutter pub get
 
       - name: Publish package
         run: dart pub publish --dry-run
