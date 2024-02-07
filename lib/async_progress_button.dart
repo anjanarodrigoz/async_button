@@ -1,4 +1,4 @@
-library async_button;
+library async_progress_button;
 
 import 'package:flutter/material.dart';
 
