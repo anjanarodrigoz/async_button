@@ -24,5 +24,5 @@ AsyncButton(
   },
 )
 
-![Example]example.gif
+![example.gif]
 
