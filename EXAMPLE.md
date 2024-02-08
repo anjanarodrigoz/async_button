@@ -6,21 +6,21 @@ This is a basic example of how to use the AsyncButton widget from the `async_pro
 
 First, you need to import the `async_progress_button` package in your Dart file:
 
-(```dart
+```dart
 import 'package:async_progress_button/async_progress_button.dart'; 
-)
+```
 
 ## Use the AsyncButton widget
 Here’s a simple example of using the AsyncButton widget:
 
-(```dart
+```dart
 AsyncButton(
   text: 'Click Me',
   onPressed: () async {
     // Your async operation here
   },
 )
-)
+```
 
 
 You can customize the AsyncButton widget by specifying different parameters, such as color, icon, iconColor, iconSize, width, and height.
