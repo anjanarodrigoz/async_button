@@ -25,5 +25,5 @@ AsyncButton(
 )
 ```
 
-<img src="viedo.gif" alt="Example" width="300" height="900">
+<img src="video.gif" alt="Example" width="300" height="900"/>
 
