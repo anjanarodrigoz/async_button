@@ -1,6 +1,6 @@
 name: async_progress_button
 description: A Flutter package that provides an asynchronous button widget with customizable properties.you can do your asynchronous activites smoothly.
-version: 2.0.1
+version: 2.0.2
 homepage: https://github.com/anjanarodrigoz/async_button?tab=readme-ov-file
 
 environment:

@@ -2,13 +2,25 @@ name: Publish to pub.dev
 
 on:
   push:
+    branches: 
+      - main
     tags:
       - 'v[0-9]+.[0-9]+.[0-9]+*'
 
 jobs:
   publish:
-    permissions:
-      id-token: write # Required for authentication using OIDC
-    uses: dart-lang/setup-dart/.github/workflows/publish.yml@v1
-    # with:
-    #   working-directory: path/to/package/within/repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+      - name: Install dependencies
+        run: flutter pub get
+      - name: Run tests
+        run: flutter test
+      - name: Build and Publish
+        run: |
+          flutter packages pub --dry-run
+          

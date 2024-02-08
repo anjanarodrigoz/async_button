@@ -2,6 +2,12 @@
 
 All notable changes to "AsyncButton" will be documented in this file.
 
+
+## [2.0.2]
+
+### Added
+- add emaple documnet for API Refrenece.
+
 ## [2.0.1]
 
 ### Added
