@@ -24,7 +24,8 @@ AsyncButton(
   },
 )
 
-![Example Video](example.gif)
+
+![example](https://github.com/anjanarodrigoz/async_button/assets/85009096/ed6b6046-e761-46d7-92b7-e4404d6fd3cc)
 
 
 
