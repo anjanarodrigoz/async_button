@@ -23,7 +23,8 @@ AsyncButton(
     // Your async operation here
   },
 )
+```
 
-![Example]('https://github.com/anjanarodrigoz/async_button/blob/main/example.gif')
+![Example Video](video.gif)
 
 
