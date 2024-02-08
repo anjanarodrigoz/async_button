@@ -1,3 +1,6 @@
+
+[![Publish to pub.dev](https://github.com/anjanarodrigoz/async_button/actions/workflows/publish.yml/badge.svg)](https://github.com/anjanarodrigoz/async_button/actions/workflows/publish.yml)
+
 # AsyncButton
 
 A Flutter package that provides an asynchronous button widget with customizable properties.

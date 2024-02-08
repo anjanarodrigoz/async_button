@@ -3,6 +3,11 @@
 All notable changes to "AsyncButton" will be documented in this file.
 
 
+## [2.0.3]
+
+### Added
+- run test.
+
 ## [2.0.2]
 
 ### Added
