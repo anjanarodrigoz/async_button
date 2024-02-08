@@ -2,6 +2,12 @@
 
 All notable changes to "AsyncButton" will be documented in this file.
 
+## [2.0.1]
+
+### Added
+- Change readme file and add example.md file.
+
+
 ## [2.0.0]
 
 ### Added
