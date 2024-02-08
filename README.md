@@ -24,5 +24,5 @@ AsyncButton(
   },
 )
 
-![Alt Text](<img src="example.gif" width="500" height="1000" />)
+![Example]<img src="example.gif" width="500" height="1000" />
 
