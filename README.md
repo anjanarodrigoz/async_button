@@ -24,7 +24,7 @@ AsyncButton(
   },
 )
 
-![example](https://github.com/anjanarodrigoz/async_button/assets/85009096/18710105-3f7d-4189-b7a0-836cfa8e8f72)
+![example]https://github.com/anjanarodrigoz/async_button/assets/85009096/18710105-3f7d-4189-b7a0-836cfa8e8f72
 
 
 
