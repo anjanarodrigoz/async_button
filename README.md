@@ -10,7 +10,7 @@ A Flutter package that provides an asynchronous button widget with customizable 
 
 ## Getting Started
 
-To use this package, add `async_button` as a dependency in your pubspec.yaml file.
+To use this package, add `async_progress_button` as a dependency in your pubspec.yaml file.
 
 ## Usage
 
@@ -23,3 +23,5 @@ AsyncButton(
     // Your async operation here
   },
 )
+
+<img src="gif/example.gif" width="500" height="1000" />
