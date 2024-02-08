@@ -22,7 +22,7 @@ void main() {
     );
 
     // Create the Finders.
-    final buttonFinder = find.text('Click Me');
+    final buttonFinder = find.text('Click');
 
     // Use the `expects` function to verify that the button is on screen.
     expect(buttonFinder, findsOneWidget);
