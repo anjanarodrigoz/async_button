@@ -24,6 +24,6 @@ AsyncButton(
   },
 )
 
-![Example](example.gif)
+![Example]('https://github.com/anjanarodrigoz/async_button/blob/main/example.gif')
 
 
