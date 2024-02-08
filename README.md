@@ -25,6 +25,6 @@ AsyncButton(
 )
 ```
 
-![Example Video](video.gif){:width=200px height=1000px}
+![Example Video](video.gif){:width=100px height=500px}
 
 
