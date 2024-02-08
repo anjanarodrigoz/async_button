@@ -11,7 +11,8 @@ void main() {
       MaterialApp(
         home: Scaffold(
           body: AsyncButton(
-            text: 'Click Me',
+            width: 200.0,
+            text: 'Click',
             onPressed: () async {
               wasPressed = true;
             },
